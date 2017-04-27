@@ -1,0 +1,266 @@
+header{
+	background: url(../images/hd.jpg);
+	background-size: 1000px 200px;
+	position: fixed;
+	height: 200px;
+	width: 100%;
+	margin-left: 5px;
+	position: relative;
+}
+header .logo{
+	font-size: 80px;
+	float:left;
+	font-color:blue;
+	margin: 30px 40px 0 50px;
+	font-family:  monospace;
+	text-shadow: 10px 15px 15px grey;
+}
+header .navpart{
+	font-size: 20px;
+	float: right;
+	margin: 10px 80px 0 0;
+	position: relative;
+	
+}
+header li a:hover{
+	color: black;
+
+}
+header li,a{
+	text-decoration: none;
+	list-style: none;
+	display:inline;
+	text-shadow: 10px 15px 15px grey;
+	padding-right: 10px;
+	color: white
+}
+body{
+	
+	text-align: justify;
+	font-family: cursive;
+	font-size: 20px;
+	background: url(../images/bd.jpg);
+	background-size: 2000px 1000px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y; 
+
+}
+.scroll a{
+	color: black;
+}
+#bd b,h3,h2{
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+#feat12{
+	position: relative;
+}
+.hero
+{
+	align:center;
+	padding-left:300px;
+	padding-top: 40px;
+	position: relative;
+	background: url(../images/bd.jpg);
+	background-size: 2000px 200px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y; 
+}
+.hero p a{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-style: solid;
+	color: black;
+}
+
+.blu img{
+		opacity: 0.3;
+		margin-left: 100px;
+}
+.blu img:hover{
+	opacity:1;
+
+	
+	
+}
+.blu h2{
+	margin-left: 100px;
+}
+#sec3{
+	float: left;
+	margin: auto;
+	background: url(../images/bd.jpg);
+	background-size: 2000px 800px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y; 
+	position: relative;
+	text-align: justify;
+	
+
+}
+
+
+.rows{
+	background: url(../images/bd.jpg);
+	background-size: 400px 800px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y; 
+	
+}
+
+.a1{
+	margin-bottom: 40px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+
+}
+.a2{
+	margin-bottom: 50px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+}
+.a3{
+	margin-bottom: 40px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+}
+input.search{
+	width: 10em;
+	height: 4em;
+	margin: auto;
+	padding-top: 12px;
+	font-size: 15px;
+}
+.hstyle h3,h2,h1{
+	
+	font-weight:bold;
+
+}
+.hstyle li{
+	list-style: none;
+	
+	text-decoration: none;
+	
+}
+.hstyle span{
+	font-weight: bold;
+}
+.hstyle a{
+	color: black;
+}
+.her a{
+	font-weight: bold;
+	color: black;
+
+}
+.her{
+	background: url(../images/bd.jpg);
+	background-size: 2000px 200px;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+}
+.article li{
+	list-style: none;
+	
+	text-decoration: none;
+	
+}
+.article span{
+	font-weight: bold;
+}
+.article a{
+	color: black;
+}
+.footer {
+	background: url(../images/ft.jpg);
+	background-size: 940px 200px;
+	background-color:red;
+}
+
+.footer > div {
+	margin: 0 auto;
+	padding: 30px 0 28px;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin:auto;
+	}
+
+.footer div p {
+	font-family: cursive;
+	display: inline-block;
+	font-size: 20px;
+	letter-spacing: 0.05em;
+	margin: 0;
+	padding: 27px 0 0;
+	text-align: center;
+}
+
+.footer div  .connect{
+	background: url(../images/ft.jpg);
+	float: right;
+	height: 18px;
+	margin: 0 20px 0 150px;
+	padding: 22px 20px;
+	overflow: hidden;
+	width: 144px;
+}
+
+.footer div .connect span {
+	color: #ededed;
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	height: 19px;
+	line-height: 21px;
+	margin: auto;
+	padding: 0 0 0 39px;
+}
+
+.footer div .connect a {
+	background: url(../images/icons.png) no-repeat;
+	display: block;
+	float: left;
+	height: 20px;
+	margin: 0 8px;
+	padding: 0;
+	text-indent: -99999px;
+	width: 20px;
+}
+
+.footer div .connect #twitter {
+	background-position: 0 -32px;
+}
+
+.footer div .connect #twitter:hover {
+	background-position: -25px -32px;
+}
+
+.footer div .connect #facebook {
+	background-position: 0 -57px;
+}
+
+.footer div .connect #facebook:hover {
+	background-position: -25px -57px;
+}
+
+.footer div .connect #googleplus {
+	background-position: 0 -82px;
+}
+
+.footer div .connect #googleplus:hover {
+	background-position: -25px -82px;
+}
+
+.footer div .connect #pinterest {
+	background-position: 0 -107px;
+}
+
+.footer div .connect #pinterest:hover {
+	background-position: -25px -107px;
+}
+
